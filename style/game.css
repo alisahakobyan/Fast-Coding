@@ -1,0 +1,149 @@
+.game {
+    z-index: 1;
+    width: 900px;
+    height: 900px; 
+    margin-right: 600px;
+    margin-top: 50px;  
+  }
+  
+  .game .game-part {
+    min-height: 50vh;
+    height: 100%;
+    text-align: center;
+    width: 90%;
+  }
+
+  .game header {
+    width: 120%;
+    margin: 1rem 1rem 10rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  header i {
+    color: black;
+  }
+
+
+  .higher-score  {
+    font-family: 'Pangolin', cursive;;
+    height:100px;
+    width: 250px;
+   font-size: 32px;
+   margin-right: 300px;
+  }
+  .your-score {
+    font-family: 'Pangolin', cursive;;
+    height: 100px;
+    width: 250px;
+   font-size: 32px;
+  }
+  .input-box {
+    margin-bottom: 200px;
+
+    
+  }
+
+  .input-box input {
+    margin-top: 20px;
+    text-align: start;
+    height: 100px;
+    width: 400px;
+    appearance: none;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: Platinum;
+    font-size: 50px;
+  }
+  
+  .input-box input.disabled {
+    background: #ccc;
+  }
+  
+  .input-box input:focus {
+    outline: none;
+  }
+
+
+  .time-bar-div {
+    height: 4px;
+    background: black;
+    border-radius: 3px;
+    width: 1500px;
+    margin: auto;
+    overflow: hidden;
+    margin-left: 50px;
+  }
+  
+  .time-bar-div span {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: black;
+  
+  }
+  
+  .time-div  {
+    text-align: center;
+  }
+
+  .time-div p {
+    margin-top: 2rem;
+    font-size: 50px;
+    font-weight: 6000;
+    font-family: 'Pangolin', cursive;
+  
+  }
+  
+  
+  
+  .word-div p {
+    position: relative;
+    margin: 2 1.5px;
+    font-size: 32px;
+    color:#000000;
+    margin-bottom: 100px;
+
+  
+  }
+
+  #gameOver{
+    z-index: 1;
+    width: 900px;
+    height: 900px;
+    margin-top: 100px; 
+  }
+
+
+  #youreFail{
+    margin-left: 150px;
+    margin-top: 10px;
+    font-size:  100px;
+    color: black;
+    font-family: 'Pangolin', cursive;
+
+  }
+  #finalScore{
+  margin-left: 260px;
+  font-size: 50px;
+  font-family: 'Pangolin', cursive;
+  margin-top: 90px;
+  align-items: center;
+ }
+
+ #timeIsOver{
+  margin-left: 260px;
+  font-size: 50px;
+  font-family: 'Pangolin', cursive;
+  margin-top: 50px;
+  align-items: center;
+ }
+ #backBtn3{
+ align-items: center;
+ margin-left: 270px;
+ margin-bottom: 700px;
+
+ }
